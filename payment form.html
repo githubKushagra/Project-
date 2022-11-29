@@ -1,0 +1,84 @@
+<!--input type="test">
+<input type="password">
+<input text="radio">
+<input type="checkbox">
+<input type="file">
+some types of button are there-
+<input type="submit">
+<input type="reset">
+<input type="image">
+<select><option value="___"</option></select-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment form</title>
+    <link rel="stylesheet" href="payment.css">
+    <!-- <style>
+        body {
+            background-image:url("C:\Users\hp\Pictures\Saved Pictures\payment.webp");
+        }
+    </style> -->
+</head>
+<body>
+    <form>
+        <h1>Payment Form</h1>
+        <h2>Contact information</h2>
+        <div>
+            Name: * <input type="text" name="name" required>
+        </div>
+        <!-- <div>
+            <fieldset>
+                <legend>Gender</legend>
+            Male: <input type="radio" name="gender">
+            Female: <input type="radio" name="gender">
+        </fieldset>
+        </div> -->
+        <div>
+            <!-- <fieldset> -->
+            Address: <textarea name="address" cols="20" rows="5" required></textarea>
+        <!-- </fieldset> -->
+        </div>
+        <div>
+           <!-- <fieldset> -->
+            Email: <input type="email" name="email" required>
+        <!-- </fieldset> -->
+        </div>
+        <div>
+            Pincode: <input type="number" name="pincode">
+        </div>
+        <h2>Payment Information</h2>
+        <div>
+            Card type:
+            <select name="card_type">
+                <option value="">--select a card type--</option>
+                <option value="visa">visa</option>
+                <option value="rupay">rupay</option>
+                <option value="mastercard">mastercard</option>
+            </select>
+        </div>
+        <div>
+            Card number:<input type="number" name="card_number" required>
+        </div>
+        <div>
+            Expiration Date: <input type="date" name="exp_date" required>
+        </div>
+        <div>
+            CVV:<input type="password" name="cvv" required>
+        </div>
+        <div>
+            /Cash On Delivery: <input type="radio" name="Cash_On_Delivery">
+        </div>
+        
+        <input type="submit" value="Pay now">
+
+    </form>
+
+    <a href="grocery items.html">Go back to home</a>
+
+</body>
+</html>
